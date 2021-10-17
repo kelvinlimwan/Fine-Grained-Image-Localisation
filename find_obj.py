@@ -53,7 +53,7 @@ def init_feature(name):
                                table_number = 6, # 12
                                key_size = 12,     # 20
                                multi_probe_level = 1) #2
-        matcher = cv.FlannBasedMatcher(flann_params, {})  # bug : need to pass empty dict (#1329)
+        matcher = cv.FlannBasedMatcher(flann_params, dict(checks=50))  # bug : need to pass empty dict (#1329)
     else:
         matcher = cv.BFMatcher(norm)
     return detector, matcher
