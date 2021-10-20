@@ -1,17 +1,16 @@
 # Final Project: Fine-Grained Localisation
-This is for the final assignment for Computer Vision (COMP90086). Given a dataset of images with an associated label containing their location, we aim to investigate methods to recognize the location of the images. 
+This is for the final assignment for Computer Vision (COMP90086). Given a dataset of images with an associated label containing their location, we aim to investigate methods to recognize the location of the images. To this end, we benchmarked various feature decriptors/extractors and image matching techniques.
 
-To this end, we benchmark various feature decriptors/extractors and image matching techniques.
 <br/><b>Descriptors/Features:</b>
 - SIFT
 - ASIFT
-- VladNET
-- Self-supervised ANN (Rotation)
-- Self-supervised ANN (Warp)
+- VladNET (<a href="https://github.com/crlz182/Netvlad-Keras">Original Code</a>)
+- Self-supervised MLP (Rotation)
+- Self-supervised MLP (Warp)
 
 <b>Image Matching:</b>
 - KNN
-- FLaNN
+- FLANN
 - MLP
 
 ### Dependencies
