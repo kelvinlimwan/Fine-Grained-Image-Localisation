@@ -1,8 +1,8 @@
-import tensorflow.keras as keras
+from tensorflow import keras
 from keras import Sequential
 from keras.layers.core import Dense, Dropout
 from keras.layers import Conv2D, Activation, Input, concatenate, Lambda, ZeroPadding2D, MaxPooling2D, Layer, Flatten
-# from keras.optimizers import SGD
+from keras.optimizers import SGD
 from keras.backend import l2_normalize, expand_dims, variable, constant
 import cv2, numpy as np
 from netvladlayer import NetVLAD
@@ -54,7 +54,7 @@ def NetVLADModel(outputsize = 4096,input_shape=(None,None,3)):
     model.add(Lambda(lambda a: l2_normalize(a,axis=-1)))    #28
 
     
-    sgd = keras.optimizers.SGD(lr=0.001, decay=0.001, momentum=0.9)
+    sgd = SGD(lr=0.001, decay=0.001, momentum=0.9)
     model.compile(loss='mean_squared_error', optimizer=sgd)
     return model
 
