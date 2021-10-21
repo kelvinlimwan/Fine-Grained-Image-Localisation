@@ -4,9 +4,9 @@ This is for the final assignment for Computer Vision (COMP90086). Given a datase
 <br/><b>Descriptors/Features:</b>
 - SIFT
 - ASIFT
-- VladNET (<a href="https://github.com/crlz182/Netvlad-Keras">Original Code</a>)
-- Self-supervised MLP (Rotation)
-- Self-supervised MLP (Warp)
+- NetVLAD (<a href="https://github.com/crlz182/Netvlad-Keras">Original Code</a>)
+- Self-supervised CNN (Rotation)
+- Self-supervised CNN (Warp)
 
 <b>Image Matching:</b>
 - KNN
