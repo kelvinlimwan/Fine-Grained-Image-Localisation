@@ -1,12 +1,12 @@
 # Fine-Grained Localisation
-This is for the final assignment for Computer Vision (COMP90086). Given a dataset of images with an associated label containing their location, we aim to investigate methods to recognize the location of the images. To this end, we benchmarked various feature decriptors/extractors and image matching techniques.
+Final assignment for Computer Vision (COMP90086). Given a dataset of images with their associated location label, we aim to investigate methods to recognize the location of an unlabelled image. To this end, we benchmarked various feature decriptors/extractors and image matching techniques.
 
 <br/><b>Descriptors/Features:</b>
 - SIFT
 - ASIFT
 - NetVLAD (<a href="https://github.com/crlz182/Netvlad-Keras">Original Code</a>)
 - Self-supervised CNN (Rotation)
-- Self-supervised CNN (Warp)
+- Self-supervised CNN (Warping)
 
 <b>Image Matching:</b>
 - KNN
@@ -26,4 +26,4 @@ Pretrained weights for NetVLAD "netvlad_weights.h5" must be downloaded and put i
 
 ### How to Run the Code
 The main file is "Experiments.ipynb"
-After running, the extracted features are stored in the checkpoint directory. Additonally, 'predictions_netvlad_knn.csv' is the prediction output used for Kaggle.
+After running, the extracted features are stored in the checkpoint directory. Additonally, 'predictions_netvlad_knn.csv' is the final prediction output used for the Kaggle competition (<a href="https://www.kaggle.com/c/comp90086-2021/overview">link</a>).
