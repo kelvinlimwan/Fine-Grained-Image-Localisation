@@ -26,4 +26,4 @@ Pretrained weights for NetVLAD "netvlad_weights.h5" must be downloaded and put i
 
 ### How to Run the Code
 The main file is "Experiments.ipynb"
-After running, the extracted features are stored in the checkpoint directory. Additonally, 'predictions_netvlad_knn.csv' is the final prediction output used for the Kaggle competition (<a href="https://www.kaggle.com/c/comp90086-2021/overview">link</a>).
+After running, the extracted features are stored in the checkpoint directory. Additonally, 'predictions_netvlad_knn.csv' is the final prediction output used for the Kaggle competition (<a href="https://www.kaggle.com/c/comp90086-2021/overview">link</a>) where the predictions were ranked 6th.
