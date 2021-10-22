@@ -1,4 +1,4 @@
-# Fine-Grained Localisation
+# Fine-Grained Image Localisation
 Final assignment for Computer Vision (COMP90086). Given a dataset of images with their associated location label, we aim to investigate methods to recognize the location of an unlabelled image. To this end, we benchmarked various feature decriptors/extractors and image matching techniques.
 
 <br/><b>Descriptors/Features:</b>
